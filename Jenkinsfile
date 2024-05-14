@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                sh 'echo Hello world !'
+                sh 'echo Hello world from LDIA !'
             }
         }
     }
