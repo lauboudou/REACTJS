@@ -7,8 +7,6 @@ pipeline {
                 sh 'echo Hello world from LDIA !'
             }
         }
-    }
-    stages {
         stage('Scan') {
             steps {
                 sh '''
